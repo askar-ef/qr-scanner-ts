@@ -154,7 +154,7 @@ const onScanSuccess = async (decodedText: string): Promise<void> => {
 const onScanError = (error: string): void => {
   console.error(error);
 };
-f;
+
 html5QrCode.start(
   { facingMode: "environment" },
   qrConfig,
